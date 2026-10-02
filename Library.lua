@@ -2526,7 +2526,7 @@ Library.Watermark = create("Frame", {
 do
     local watermark_inner = create("Frame", {
         BackgroundColor3 = "MainColor";
-        BorderColor3 = "AccentColor";
+        BorderColor3 = "OutlineColor";
         BorderMode = Enum.BorderMode.Inset;
         Size = UDim2.new(1, 0, 1, 0);
         ZIndex = 201;
